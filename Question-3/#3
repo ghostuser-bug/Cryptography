@@ -1,5 +1,4 @@
 Questions:
-
 1.Can you find the hidden message in these two video files?
 2.What is the hidden message?
 
@@ -14,3 +13,5 @@ Instructions:
 3.The password to reveal the hidden message is a combination of two phrases, with some characters censored.
 4.Decrypt the hidden message using AES-128 with the secret key provided.
 5.Submit the decrypted message as your flag.
+
+FLAG FORMAT:MIIT{}
