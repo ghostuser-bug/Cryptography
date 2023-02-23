@@ -5,13 +5,12 @@ Questions:
 
 Hint:
 1.The hidden message is encrypted using AES-128 with a secret key.
-2.The password to reveal the hidden message is a combination of two phrases, with some characters censored. The first phrase is "MIIT@CTF", and the second phrase is hidden somewhere in the video files.
-3.You may need to use a steganography tool like OpenPuff to reveal the hidden message.
+2.The password to reveal the hidden message is a combination of two phrases, with some characters censored.
+3.You may need to use a steganography tool that support mp4 files to get the hidden message.
 
 Instructions:
-
 1.Download the two video files provided.
-2.Use a steganography tool like OpenPuff to extract the hidden message.
-3.The password to reveal the hidden message is a combination of two phrases, with some characters censored. The first phrase is "MIIT@CTF", and the second phrase is hidden somewhere in the video files.
-4.Decrypt the hidden message using AES-128 with the password you found.
-5.Submit the decrypted message as your answer.
+2.Use a steganography tool to extract the hidden message.
+3.The password to reveal the hidden message is a combination of two phrases, with some characters censored.
+4.Decrypt the hidden message using AES-128 with the secret key provided.
+5.Submit the decrypted message as your flag.
