@@ -3,7 +3,7 @@ Questions:
 
 Hint:
 1.The hidden message is encrypted using AES-128 with encryption cipher mode CBC and having initialization vector (IV).
-2.The password to reveal the hidden message is a combination of two phrases, with some characters censored.
+2.The password to reveal the hidden message is a combination of two phrases with some characters censored.
 3.You might need to use a steganography tool that support mp3 and mp4 files to get the hidden message.
 4.The secret key for encrypted text of AES-128 is seperated in 4 part using Shamir secret sharing scheme and required teamwork to get all part of message.
 5.The file with named "SHAMIR" containing mp3 files with a message in every of it.
