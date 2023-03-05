@@ -12,12 +12,14 @@ Hint:
 Tool to use:
 https://iancoleman.io/shamir/ - as shamir secret sharing scheme.
 OpenPuff or any relevant tool that support mp4 and mp3 decryption.
+https://www.devglan.com/online-tools/aes-encryption-decryption - AES 128 decryption tool.
 
 Instructions:
 1.Download the videos and mp4 files provided.
 2.Use a steganography tool to extract the hidden message.
 3.Find the secret key hidden in mp3 files in order to use it for AES-128 decryption.
-4.Decrypt the hidden message using AES-128.
-5.Submit the decrypted message as your flag.
+4.Decrypt the hidden message using AES-128 with given initialization vector (IV) given in password file.
+5.Guess or brute 3 censored character for initialization vector.
+6.Submit the decrypted message as your flag.
 
 FLAG FORMAT:MIIT{THIS_IS_FLAG}
