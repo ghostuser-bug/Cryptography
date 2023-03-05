@@ -12,4 +12,4 @@ Instructions:
 3.Decrypt the hidden message using AES-128 with the secret key provided.
 4.Submit the decrypted message as your flag.
 
-FLAG FORMAT:MIIT{}
+FLAG FORMAT:MIIT{THIS_IS_FLAG}
