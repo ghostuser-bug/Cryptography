@@ -1,4 +1,4 @@
-Dim publicKey as String = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+0I7A1kBsJ+ovYeWZbULY1c7SzZ4b+eLPoPNaLjFtbQzNWZWTzxS+k4SpKyDXBCDAykNRgOjpniQcBYf+dwBpY36gW5J8bEvCoLYq4MpfZftnPW5jEOynnD0jnSuREzU0GDSSWpzkC71dIZDRvti97n3t2GmFl+GIfxx6ZqZ88wIDAQAB"
+Dim publicKey as String = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjGaPCO3po3jfhWz0iBZPPqIgz5rxF58HuxzW3KDvYrQ7nMUNjTKyBp0cFOquyNxToBAOEfkeg56mnyhvtmLPpaxZn1KUpVG7TPUmWBgN8E46nPgQCr/cFxd1LQB9dmOfiIuRTFpkWoqQHWQhacDALI/YXkqimhTc9fRY9teZyqXRvJVqFUbvLTUsOyZzKFAx+k7kTRkCVpO0vJovmCU4X+e/8cOl5vrn9V3kwNRpmIC/jNqtUOHemfsyb8VImXRyijuXfN4/v2Ot9cGJ0DGkwCrqJqyffhdXExqGKmlTENQ2YsIN/H5jAt/TqAFss3X28bynpIG1KJbQCqgT4dNiLQIDAQAB"
 Dim publicKeyHeader as String = "-----BEGIN PUBLIC KEY-----"
 Dim publicKeyFooter as String = "-----END PUBLIC KEY-----"
 Dim chunks as Integer = Math.Ceiling(publicKey.Length / 64)
