@@ -8,6 +8,7 @@ Hint:
 4.The secret key for encrypted text of AES-128 is seperated in 4 part using Shamir secret sharing scheme and required teamwork to get all part of message.
 5.The directory with named "SecretKey" containing mp3 files with a message in every of it.
 6.Combine the message you got in order to obtain secret key for AES-128 decryption.
+7.Bit selection option for all MP4 and MP3 files is at 1/3 or 33% or very high.
 
 Tool to use:
 https://iancoleman.io/shamir/ - as shamir secret sharing scheme.
