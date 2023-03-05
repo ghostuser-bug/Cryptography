@@ -6,7 +6,7 @@ Hint:
 2.The password to reveal the hidden message is a combination of two phrases with some characters censored.
 3.You might need to use a steganography tool that support mp3 and mp4 files to get the hidden message.
 4.The secret key for encrypted text of AES-128 is seperated in 4 part using Shamir secret sharing scheme and required teamwork to get all part of message.
-5.The file with named "SHAMIR" containing mp3 files with a message in every of it.
+5.The directory with named "Secert Key" containing mp3 files with a message in every of it.
 6.Combine the message you got in order to obtain secret key for AES-128 decryption.
 
 Tool to use:
