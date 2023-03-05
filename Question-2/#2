@@ -1,7 +1,7 @@
 Question: What is the secret message hidden in the file named binary.txt?
-Hint: The message was encrypted using the RSA algorithm with a 2048-bit key.
+Hint: The message was encrypted using the RSA algorithm with a 2048-bit key and "RSA/ECB/OAEPWithSHA-1AndMGF1Padding" as a chiper type.
 Instructions:
-1.You will receive a binary file and a public key in PEM format.
-2.Use the provided public key to decrypt the binary file.
+1.You will receive a binary,public and private key in PEM files.
+2.Use the provided private key to decrypt the binary file.
 3.The decrypted message will contain a hint to find the flag.
-4.The flag is in the format MIIT{}.
+4.The flag is in the format MIIT{This_is_flag}.
