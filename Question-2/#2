@@ -4,4 +4,4 @@ Instructions:
 1.You will receive a binary,public and private key in PEM files.
 2.Use the provided private key to decrypt the binary file.
 3.The decrypted message will contain a hint to find the flag.
-4.The flag is in the format MIIT{This_is_flag}.
+4.The flag is in the format MIIT{THIS_IS_FLAG}.
